@@ -1,0 +1,51 @@
+:root {
+    --heading-font: 'Open Sans', sans-serif;
+    --body-font: Lato, sans-serif;
+    --body-bg: #FBFBFE;
+    --text-primary: #1192EE;
+    --text-secondary: #53575A;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .heading-font {
+    font-family: var(--heading-font);
+  }
+
+  body,
+  .body-font {
+    font-family: var(--body-font)
+  }
+
+  body {
+    background-color: var(--body-bg);
+  }
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.jumbotron-body {
+  min-height: 350px;
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.acercade {
+  border-left: 6px solid var(--text-primary);
+  border-radius: 6px;
+}
+
+.rounded-5 {
+  border-radius: 12px;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
